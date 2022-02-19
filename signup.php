@@ -31,6 +31,9 @@ color:black;
               <div class="mb-md-5 mt-md-4 pb-5">
                 <h2 class="fw-bold mb-2 text-uppercase">SignUp</h2>
                 <p class="text-white-50 mb-5">Please enter your details</p>
+                <div>
+                  <p>Expert? <a href="expert.html" class="text-white-50 fw-bold">SignUp</a></p>
+                </div>
                 <div class="form-outline form-white mb-4">
                   <input type="text" id="typename"  placeholder="First Name"class="form-control form-control-lg" />
                 </div>
@@ -41,32 +44,18 @@ color:black;
                   <input type="email" id="typeEmail"  placeholder="Email"class="form-control form-control-lg" />
                 </div>
                 <div class="form-outline form-white mb-4">
-                  <input type="text" id="typehname"  placeholder="Hospital Name"class="form-control form-control-lg" />
+                  <input type="number" id="age"placeholder="Age" class="form-control form-control-lg" />
                 </div>
-                <div class="form-outline form-white mb-4">
-                  <input type="tel" id="phone"  placeholder="Phone Number"class="form-control form-control-lg" />
-                </div>
-                <div class="form-outline form-white mb-4">
-                  <input type="number" id="years"placeholder="Years of Experience" class="form-control form-control-lg" />
-                </div>
-                <div class="form-outline form-white mb-4">
-                  <input type="text" id="typeaddress"  placeholder="Address"class="form-control form-control-lg" />
-                </div>
-                <div class="form-outline form-white mb-4">
-                  <input type="text" id="qual"  placeholder="Qualification"class="form-control form-control-lg" />
-                </div>
-
-
-
                 <div class="form-outline form-white mb-4">
                   <input type="password" id="typePassword"placeholder="Password" class="form-control form-control-lg" />
                 </div>
                 <div class="form-outline form-white mb-4">
                   <input type="password" id="confirmPassword"placeholder="Confirm Password" class="form-control form-control-lg" />
                 </div>
-                <input class="btn btn-outline-light btn-lg px-5" type="submit" onclick="load()" value="SignUp"/>
+
+                <input class="btn btn-outline-light btn-lg px-5" type="submit"  value="SignUp"/>
               </div>
-            
+
             </div>
           </div>
         </div>
