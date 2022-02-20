@@ -50,6 +50,8 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
 
                 $_SESSION['email'] = $row['email'];
 
+                $_SESSION['userid'] = $row['userid'];
+
                 $_SESSION['password'] = $row['password'];
 
                 $_SESSION['fname'] = $row['fname'];

@@ -170,11 +170,8 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
-      <form class="d-flex">
-          <input type="button" class="btn btn-outline-light"value="Signup">
-          &nbsp &nbsp
-
-          <input type="button" class="btn btn-outline-light"value="Login">
+        <a href= 'main.php' class="btn btn-outline-light" id="button">Login</a>  &nbsp &nbsp
+        <a href= 'signup.php' class="btn btn-outline-light" id="button">Sign up</a> 
       </form>
     </div>
   </div>

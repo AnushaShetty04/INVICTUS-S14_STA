@@ -24,9 +24,58 @@
     .container{
       margin-top:50px
     }
+    .navbar{
+        background-color:#F94892;
+    }
+    #contact{
+          background-color:#F94892
+    }
+.btn:hover {
+      background-color:
+    }
+    .btn{
+      background-color:#CAF0F8;
+      color:black;
+    }
+    *{
+           font-family: cursive;
+         }
+         .navbar-brand:hover {
+             color:#CAF0F8;
+
+         }
     </style>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Share to Aware</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+          <a class="nav-link active" href="home.php">Feed</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="expertList.php">Ask a expert</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="upcoming.php">Upcoming events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="FAQ.php">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="mypost.php">Your posts</a>
+        </li>
+      </ul>
+      <a href= 'logout.php' class="btn btn-outline-light" id="but">Logout</a> 
+    </div>
+  </div>
+</nav>
+<br>
   <h1 class="faq-heading">FAQ'S</h1>
   <div class="container">
   <div class="accordion" id="accordionExample">
@@ -83,6 +132,47 @@ When you are asleep, your bodily functions slow down, and the bleeding intensity
 
 </div>
 </div>
-
+<!-- </section>
+<footer class="text-center text-white" id='contact'>
+  <div class="container pt-4">
+    <section class="mb-4">
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i></a>
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+    </section>
+  </div>
+  <div class="text-center text-dark p-3" >
+    © 2021 Copyright:
+    <a class="text-dark" href="#">Share to Aware</a>
+  </div>
+</footer> -->
 </body>
 </html>

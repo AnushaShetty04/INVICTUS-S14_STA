@@ -32,7 +32,7 @@ color:black;
                 <h2 class="fw-bold mb-2 text-uppercase">SignUp</h2>
                 <p class="text-white-50 mb-5">Please enter your details</p>
                 <div>
-                  <p>Expert? <a href="expert.html" class="text-white-50 fw-bold">SignUp</a></p>
+                  <p>Expert? <a href="expert-sign.php" class="text-white-50 fw-bold">SignUp</a></p>
                 </div>
                 <div class="form-outline form-white mb-4">
                   <input type="text" id="typename"  placeholder="First Name"class="form-control form-control-lg" />
